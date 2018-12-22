@@ -1,0 +1,51 @@
+html{
+      height: 100%;
+
+}
+
+body{
+  font-family: 'Viga', sans-serif;
+  background-image: url(https://images.wallpaperscraft.com/image/palms_road_marking_123929_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: auto;
+
+}
+nav {
+  grid-area: navigation;
+  background: rgba(0, 0, 0, 0.4);
+}
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  justify-content: start;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:  "navigation"
+                        "heading";
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1{
+    font-size: 90px;
+    color: white;
+    font-family: Viga;
+}
+p{
+    font-size: 50px;
+
+
+
+}
